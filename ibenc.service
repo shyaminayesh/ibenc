@@ -6,7 +6,7 @@ Wants=network-online.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/ibenc -config /etc/ibenc/ibenc.yaml
+ExecStart=/usr/share/ibenc/ibenc -config /etc/ibenc/ibenc.yaml
 User=root
 StandardOutput=journal
 StandardError=journal
