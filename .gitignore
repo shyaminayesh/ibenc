@@ -1,0 +1,31 @@
+# Binaries
+ibenc
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go build cache
+.cache/
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Configuration (don't commit actual configs with secrets)
+ibenc.yaml
+!ibenc.yaml.example
+
+# Environment files
+.env
+.env.local
+
+# macOS
+.DS_Store
+
+# Linux
+.directory
